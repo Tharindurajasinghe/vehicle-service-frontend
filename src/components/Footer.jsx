@@ -81,7 +81,7 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Fuchsius Vehicle Service. All rights reserved.
           </span>
           <span style={styles.credit}>
-            Built with the MERN Stack
+            Your Trust Partner
           </span>
         </div>
       </div>

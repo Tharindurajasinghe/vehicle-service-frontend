@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav style={styles.nav}>
       <div style={styles.brand}>
         <div style={styles.logo}>F</div>
-        <span style={styles.brandName}>Fuchsius Service</span>
+        <span style={styles.brandName}>Vehicle Service</span>
       </div>
 
       <div style={styles.links}>
