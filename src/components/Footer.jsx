@@ -7,7 +7,7 @@ const Footer = () => {
         <div style={styles.column}>
           <div style={styles.brand}>
             <div style={styles.logo}>F</div>
-            <span style={styles.brandName}>Fuchsius Service</span>
+            <span style={styles.brandName}>Vehicle Service</span>
           </div>
           <p style={styles.tagline}>
             Professional vehicle service and maintenance. Keeping your vehicle
