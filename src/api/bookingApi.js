@@ -15,3 +15,7 @@ export const updateBookingStatus = (id, status) =>
 
 // Admin - delete a booking
 export const deleteBooking = (id) => API.delete(`/bookings/${id}`);
+
+// Public - customer tracks their bookings by phone number
+export const trackBookingsByPhone = (phone) =>
+  API.get(`/bookings/track/${encodeURIComponent(phone)}`);

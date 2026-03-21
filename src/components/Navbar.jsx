@@ -27,6 +27,16 @@ const Navbar = () => {
           Book Service
         </Link>
 
+        <Link
+          to="/track"
+          style={{
+            ...styles.trackLink,
+            ...(isActive("/track") ? styles.activeTrackLink : {}),
+          }}
+        >
+          &#128269; Track Service
+        </Link>
+
         {admin && (
           <>
             <Link
@@ -113,6 +123,24 @@ const styles = {
   activeLink: {
     color: "#e2e8f0",
     backgroundColor: "#1e1e2e",
+  },
+  trackLink: {
+    padding: "7px 14px",
+    borderRadius: "6px",
+    color: "#a78bfa",
+    textDecoration: "none",
+    fontSize: "13px",
+    fontFamily: "'Georgia', serif",
+    fontWeight: "600",
+    border: "1px solid #4c1d95",
+    backgroundColor: "#1a0a2e",
+    letterSpacing: "0.01em",
+    transition: "all 0.15s ease",
+  },
+  activeTrackLink: {
+    backgroundColor: "#2d1a4e",
+    borderColor: "#7c3aed",
+    color: "#c4b5fd",
   },
   username: {
     fontSize: "13px",
